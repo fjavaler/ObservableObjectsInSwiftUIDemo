@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		31F5C8512717713000EDF186 /* ObservableObjectsInSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C8502717713000EDF186 /* ObservableObjectsInSwiftUIDemoApp.swift */; };
-		31F5C8532717713000EDF186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C8522717713000EDF186 /* ContentView.swift */; };
+		31F5C8532717713000EDF186 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C8522717713000EDF186 /* AccountView.swift */; };
 		31F5C8552717713900EDF186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F5C8542717713900EDF186 /* Assets.xcassets */; };
 		31F5C8582717713900EDF186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F5C8572717713900EDF186 /* Preview Assets.xcassets */; };
+		31F5C85F271771DA00EDF186 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C85E271771DA00EDF186 /* BalanceView.swift */; };
+		31F5C8642717720F00EDF186 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5C8632717720F00EDF186 /* ProfileModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31F5C84D2717713000EDF186 /* ObservableObjectsInSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableObjectsInSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F5C8502717713000EDF186 /* ObservableObjectsInSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectsInSwiftUIDemoApp.swift; sourceTree = "<group>"; };
-		31F5C8522717713000EDF186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31F5C8522717713000EDF186 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		31F5C8542717713900EDF186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F5C8572717713900EDF186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31F5C85E271771DA00EDF186 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		31F5C8632717720F00EDF186 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				31F5C8502717713000EDF186 /* ObservableObjectsInSwiftUIDemoApp.swift */,
-				31F5C8522717713000EDF186 /* ContentView.swift */,
+				31F5C862271771EE00EDF186 /* ViewModels */,
+				31F5C861271771E900EDF186 /* Views */,
+				31F5C860271771E000EDF186 /* Models */,
 				31F5C8542717713900EDF186 /* Assets.xcassets */,
 				31F5C8562717713900EDF186 /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				31F5C8572717713900EDF186 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31F5C860271771E000EDF186 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31F5C8632717720F00EDF186 /* ProfileModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31F5C861271771E900EDF186 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31F5C8522717713000EDF186 /* AccountView.swift */,
+				31F5C85E271771DA00EDF186 /* BalanceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31F5C862271771EE00EDF186 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31F5C8532717713000EDF186 /* ContentView.swift in Sources */,
+				31F5C85F271771DA00EDF186 /* BalanceView.swift in Sources */,
+				31F5C8642717720F00EDF186 /* ProfileModel.swift in Sources */,
+				31F5C8532717713000EDF186 /* AccountView.swift in Sources */,
 				31F5C8512717713000EDF186 /* ObservableObjectsInSwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

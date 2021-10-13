@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct ObservableObjectsInSwiftUIDemoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      AccountView()
+        .environmentObject(ProfileModel())
     }
+  }
 }

@@ -23,5 +23,6 @@ struct BalanceView: View {
 struct BalanceView_Previews: PreviewProvider {
   static var previews: some View {
     BalanceView()
+      .environmentObject(ProfileModel())
   }
 }
